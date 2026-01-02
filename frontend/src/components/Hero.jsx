@@ -49,12 +49,12 @@ const Hero = () => {
           <div className="md:col-span-2 flex justify-center md:justify-end">
             <div className="relative group">
               <div className="absolute -inset-4 bg-gradient-to-r from-amber-500/20 to-slate-400/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-2 border-slate-800 shadow-2xl">
+              <div className="relative w-64 h-64 md:w-72 md:h-72 rounded-full overflow-hidden border-2 border-slate-800 shadow-2xl">
                 <img
                   src={personalInfo.image}
                   alt={personalInfo.name}
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
-                  style={{ objectPosition: 'center 35%' }}
+                  style={{ objectPosition: 'center center' }}
                 />
               </div>
             </div>
