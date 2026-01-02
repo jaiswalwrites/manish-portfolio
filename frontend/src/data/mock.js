@@ -14,23 +14,59 @@ export const personalInfo = {
 };
 
 export const about = {
-  description: "Seasoned Technical Writer, certified DevOps professional, and advocate for Blockchain, web3, and end-users. I thrive on evolving with rapidly changing technologies and crafting awesome documentation that bridges the gap between complex technology and end users.",
+  description: "Seasoned Technical Writer, certified DevOps professional, and advocate for Blockchain, Web3, and AI. I thrive on evolving with rapidly changing technologies and crafting documentation that bridges the gap between complex technology and end users.",
   stats: [
-    { label: "Years Experience", value: "8+" },
-    { label: "Companies Worked", value: "12+" },
-    { label: "Newsletter Subscribers", value: "1K+" },
-    { label: "Certifications", value: "5+" }
+    { label: "Years Experience", value: 8 },
+    { label: "Companies Worked", value: 12 },
+    { label: "Newsletter Subscribers", value: 1000 },
+    { label: "Certifications", value: 5 }
   ]
 };
 
 export const neurals = {
   name: "Neurals.in",
-  description: "An innovative AI-powered platform focused on bridging the gap between artificial intelligence and practical business applications. Neurals.in provides cutting-edge AI solutions, technical content, and consulting services for modern enterprises.",
-  features: [
-    "AI Consulting & Implementation",
-    "Technical Documentation Services",
-    "Web3 & Blockchain Integration",
-    "Developer Advocacy & Training"
+  tagline: "AI-Powered FinOps Automation",
+  description: "An enterprise-level FinOps automation platform that reduces cloud costs by 30-40% automatically. 10 specialized AI agents work 24/7 to optimize cloud spend, enforce governance, and keep engineering teams efficient.",
+  logo: "https://customer-assets.emergentagent.com/job_62aa6f42-eb1d-43a7-9fbe-6dc3252347a9/artifacts/4iapj6e6_logo-full-horizontal.svg",
+  highlights: [
+    "30-40% cloud cost reduction",
+    "2-3x ROI in 30 days",
+    "10 AI agents working 24/7",
+    "99.9% compliance rate",
+    "Enterprise-grade security (SOC 2 Type II)",
+    "Multi-cloud support (AWS, Azure, GCP)"
+  ],
+  agents: [
+    {
+      name: "Sheldon",
+      role: "Governance Enforcer",
+      description: "Eliminates compliance violations before they happen with automated policy enforcement"
+    },
+    {
+      name: "Leonard",
+      role: "FinOps Advisor",
+      description: "Reduces cloud spend by 30-40% with data-driven insights and actionable recommendations"
+    },
+    {
+      name: "Penny",
+      role: "Stakeholder Communications",
+      description: "Saves 10+ hours/week on reporting with automated briefings and updates"
+    },
+    {
+      name: "Howard",
+      role: "Automation & Remediation",
+      description: "Auto-remediates 80% of cost anomalies safely with approval gates"
+    },
+    {
+      name: "Raj",
+      role: "Multi-Cloud Explorer",
+      description: "Provides complete visibility across AWS, Azure, and GCP with unified insights"
+    },
+    {
+      name: "Amy",
+      role: "Forecasting & Anomaly Scientist",
+      description: "Predicts spend with 95%+ accuracy and catches anomalies early"
+    }
   ],
   website: "https://neurals.in"
 };
@@ -42,12 +78,13 @@ export const experience = [
     role: "Founder",
     duration: "2023 - Present",
     location: "Bangalore",
-    domain: "AI, Web3, Technical Content",
-    description: "Building AI-powered solutions and providing technical content services for modern enterprises.",
+    domain: "AI, FinOps, Cloud Cost Optimization",
+    description: "Founded an AI-powered FinOps automation platform that reduces cloud costs by 30-40% for enterprises. Built a team of 10 specialized AI agents that work 24/7 to optimize cloud spend and enforce governance.",
     highlights: [
-      "Founded and bootstrapped an AI-focused consulting platform",
-      "Providing end-to-end documentation services for blockchain and AI companies",
-      "Building developer advocacy programs"
+      "Built enterprise FinOps platform serving fast-growing companies",
+      "Achieved 30-40% cloud cost reduction for customers with 2-3x ROI in 30 days",
+      "Developed 10 specialized AI agents for autonomous cloud cost optimization",
+      "Secured SOC 2 Type II certification for enterprise-grade security"
     ]
   },
   {
@@ -258,8 +295,8 @@ export const certifications = [
 
 export const achievements = [
   {
-    title: "Unicorn Success Story",
-    description: "Contributed to documentation team that helped bootstrap a product into a unicorn company"
+    title: "Founded Neurals.in",
+    description: "Built AI-powered FinOps platform achieving 30-40% cloud cost reduction for enterprise customers"
   },
   {
     title: "Newsletter Creator",
