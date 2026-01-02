@@ -28,10 +28,10 @@ const Hero = () => {
       <div className="absolute inset-0">
         <div 
           className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-amber-500/5 rounded-full blur-3xl"
-          style={
+          style={{
             transform: `translate(${mousePosition.x}px, ${mousePosition.y}px)`,
             transition: 'transform 0.5s ease-out'
-          }
+          }}
         />
         <div 
           className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-slate-400/5 rounded-full blur-3xl"
