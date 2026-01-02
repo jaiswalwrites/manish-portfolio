@@ -74,21 +74,36 @@ export const neurals = {
 export const experience = [
   {
     id: 1,
-    company: "Neurals.in",
-    role: "Founder",
-    duration: "2023 - Present",
+    company: "Usage.ai (Neurals.in)",
+    role: "AI Engineer & Founder",
+    duration: "Feb 2023 - Present",
     location: "Bangalore",
-    domain: "AI, FinOps, Cloud Cost Optimization",
-    description: "Founded an AI-powered FinOps automation platform that reduces cloud costs by 30-40% for enterprises. Built a team of 10 specialized AI agents that work 24/7 to optimize cloud spend and enforce governance.",
+    domain: "AI-driven FinOps Automation",
+    description: "Designed and deployed intelligent AI agents leveraging LLMs, reinforcement learning, and RAG pipelines for predictive analytics and real-time cloud cost optimization across AWS, GCP, and Azure.",
     highlights: [
-      "Built enterprise FinOps platform serving fast-growing companies",
-      "Achieved 30-40% cloud cost reduction for customers with 2-3x ROI in 30 days",
-      "Developed 10 specialized AI agents for autonomous cloud cost optimization",
-      "Secured SOC 2 Type II certification for enterprise-grade security"
+      "Built AI-powered FinOps platform reducing cloud costs by 30-40% for enterprises",
+      "Engineered anomaly detection systems and automated savings plans, reducing compute and SaaS spend by up to 40%",
+      "Applied generative AI and prompt engineering for actionable cost insights in dynamic cloud environments",
+      "Led cross-functional collaborations establishing enterprise-wide cost governance frameworks"
     ]
   },
   {
     id: 2,
+    company: "Safe Security",
+    role: "AI Technical Writer",
+    duration: "Aug 2023 - Feb 2025",
+    location: "Bangalore",
+    domain: "CRQM, CyberSecurity, AI, LLM",
+    description: "Revolutionized documentation strategy for cybersecurity platform, integrating AI-powered solutions.",
+    highlights: [
+      "Increased user engagement by 40% and reduced support tickets by 30%",
+      "Optimized 400+ APIs on Swagger, reducing API-related queries by 50%",
+      "Spearheaded training of in-house AI agent (Safex), improving query resolution accuracy by 60%",
+      "Proficient in RAG systems, AI workflow tools (Langchain, LlamaIndex), and modern AI technologies"
+    ]
+  },
+  {
+    id: 3,
     company: "Marlin.org",
     role: "Contract Technical Writer",
     duration: "Dec 2023 - July 2024",
@@ -102,7 +117,7 @@ export const experience = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     company: "1Kosmos",
     role: "Contract Technical Writer",
     duration: "Jan 2023 - Dec 2023",
@@ -116,7 +131,7 @@ export const experience = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     company: "Arcana Network",
     role: "Contract Technical Writer",
     duration: "March 2022 - Jan 2023",
@@ -130,7 +145,7 @@ export const experience = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     company: "Rocket Software",
     role: "Senior Technical Writer",
     duration: "May 2022 - July 2023",
@@ -144,10 +159,10 @@ export const experience = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     company: "Harness.io",
     role: "Senior Technical Writer",
-    duration: "March 2021 - March 2022",
+    duration: "March 2021 - July 2023",
     location: "Bangalore",
     domain: "DevOps, ML, AI",
     description: "Led documentation for CI Enterprise product from beta to GA.",
@@ -158,7 +173,7 @@ export const experience = [
     ]
   },
   {
-    id: 7,
+    id: 8,
     company: "McAfee",
     role: "Technical Writer",
     duration: "Nov 2018 - April 2021",
@@ -172,7 +187,7 @@ export const experience = [
     ]
   },
   {
-    id: 8,
+    id: 9,
     company: "KanTime",
     role: "Technical Writer",
     duration: "Dec 2015 - Nov 2018",
