@@ -1,50 +1,50 @@
 import React from 'react';
 import { personalInfo } from '../data/mock';
-import { Github, Linkedin, Mail, Heart } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-slate-950 border-t border-slate-800 py-12">
+    <footer className="bg-slate-950 border-t border-slate-900 py-12">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent mb-2">
+            <h3 className="text-2xl font-light text-white mb-2">
               {personalInfo.name}
             </h3>
-            <p className="text-slate-400 text-sm">
+            <p className="text-slate-400 text-sm font-light">
               {personalInfo.tagline}
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-white font-semibold mb-4">Quick Links</h4>
+            <h4 className="text-white font-light mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#about" className="text-slate-400 hover:text-cyan-400 transition-colors">
+                <a href="#about" className="text-slate-400 hover:text-amber-500 transition-colors font-light">
                   About
                 </a>
               </li>
               <li>
-                <a href="#experience" className="text-slate-400 hover:text-cyan-400 transition-colors">
+                <a href="#experience" className="text-slate-400 hover:text-amber-500 transition-colors font-light">
                   Experience
                 </a>
               </li>
               <li>
-                <a href="#work" className="text-slate-400 hover:text-cyan-400 transition-colors">
+                <a href="#work" className="text-slate-400 hover:text-amber-500 transition-colors font-light">
                   Portfolio
                 </a>
               </li>
               <li>
-                <a href="#skills" className="text-slate-400 hover:text-cyan-400 transition-colors">
+                <a href="#skills" className="text-slate-400 hover:text-amber-500 transition-colors font-light">
                   Skills
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-slate-400 hover:text-cyan-400 transition-colors">
+                <a href="#contact" className="text-slate-400 hover:text-amber-500 transition-colors font-light">
                   Contact
                 </a>
               </li>
@@ -53,13 +53,13 @@ const Footer = () => {
 
           {/* Connect */}
           <div>
-            <h4 className="text-white font-semibold mb-4">Connect</h4>
+            <h4 className="text-white font-light mb-4">Connect</h4>
             <div className="flex gap-4">
               <a
                 href={personalInfo.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 bg-slate-900 rounded-lg border border-slate-800 hover:border-cyan-500 hover:bg-cyan-500/10 text-slate-400 hover:text-cyan-400 transform hover:scale-110 transition-all duration-300"
+                className="p-3 border border-slate-800 hover:border-amber-500/50 text-slate-400 hover:text-amber-500 transition-all duration-300"
               >
                 <Github className="w-5 h-5" />
               </a>
@@ -67,13 +67,13 @@ const Footer = () => {
                 href={personalInfo.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 bg-slate-900 rounded-lg border border-slate-800 hover:border-cyan-500 hover:bg-cyan-500/10 text-slate-400 hover:text-cyan-400 transform hover:scale-110 transition-all duration-300"
+                className="p-3 border border-slate-800 hover:border-amber-500/50 text-slate-400 hover:text-amber-500 transition-all duration-300"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
                 href={`mailto:${personalInfo.email}`}
-                className="p-3 bg-slate-900 rounded-lg border border-slate-800 hover:border-cyan-500 hover:bg-cyan-500/10 text-slate-400 hover:text-cyan-400 transform hover:scale-110 transition-all duration-300"
+                className="p-3 border border-slate-800 hover:border-amber-500/50 text-slate-400 hover:text-amber-500 transition-all duration-300"
               >
                 <Mail className="w-5 h-5" />
               </a>
@@ -82,13 +82,10 @@ const Footer = () => {
         </div>
 
         {/* Bottom */}
-        <div className="pt-8 border-t border-slate-800">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-slate-400 text-sm">
+        <div className="pt-8 border-t border-slate-900">
+          <div className="text-center">
+            <p className="text-slate-400 text-sm font-light">
               © {currentYear} {personalInfo.name}. All rights reserved.
-            </p>
-            <p className="text-slate-400 text-sm flex items-center gap-2">
-              Made with <Heart className="w-4 h-4 text-red-500 fill-red-500 animate-pulse" /> using React & Tailwind CSS
             </p>
           </div>
         </div>
