@@ -74,7 +74,7 @@ const About = () => {
               {about.description}
             </p>
             <p className="text-lg text-slate-400 leading-relaxed">
-              With <span className="text-amber-500">8+ years of experience</span>, I've worked with industry 
+              With <span className="text-amber-500">10+ years of experience</span>, I've worked with industry 
               leaders like <span className="text-white">Harness.io</span>, <span className="text-white">McAfee</span>, and emerging blockchain 
               companies like <span className="text-white">Arcana Network</span> and <span className="text-white">Marlin</span>.
             </p>
