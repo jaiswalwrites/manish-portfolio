@@ -53,8 +53,8 @@ const Hero = () => {
                 <img
                   src={personalInfo.image}
                   alt={personalInfo.name}
-                  className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-500"
-                  style={{ objectPosition: 'center 20%' }}
+                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                  style={{ objectPosition: 'center 35%' }}
                 />
               </div>
             </div>
