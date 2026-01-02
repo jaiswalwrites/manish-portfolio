@@ -87,7 +87,7 @@ const Hero = () => {
 
             {/* Description */}
             <p className="text-lg text-slate-400 leading-relaxed max-w-2xl">
-              Seasoned Technical Writer with 8+ years of experience crafting documentation 
+              Seasoned Technical Writer with 10+ years of experience crafting documentation 
               for industry leaders. Certified DevOps professional and advocate for Blockchain, 
               Web3, and AI technologies.
             </p>
