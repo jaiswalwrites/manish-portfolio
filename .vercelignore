@@ -1,0 +1,6 @@
+backend
+tests
+.git
+.emergent
+test_result.md
+yarn.lock
