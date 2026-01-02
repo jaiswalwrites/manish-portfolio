@@ -16,10 +16,10 @@ export const personalInfo = {
 export const about = {
   description: "Seasoned Technical Writer, certified DevOps professional, and advocate for Blockchain, Web3, and AI. I thrive on evolving with rapidly changing technologies and crafting documentation that bridges the gap between complex technology and end users.",
   stats: [
-    { label: "Years Experience", value: 8 },
+    { label: "Years Experience", value: 10 },
     { label: "Companies Worked", value: 12 },
     { label: "Newsletter Subscribers", value: 1000 },
-    { label: "Certifications", value: 5 }
+    { label: "Certifications", value: 6 }
   ]
 };
 
