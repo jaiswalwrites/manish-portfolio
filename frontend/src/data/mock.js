@@ -282,6 +282,11 @@ export const skills = {
 
 export const certifications = [
   {
+    name: "The AI Engineer Course 2025: Complete AI Engineer Bootcamp",
+    issuer: "Online Course",
+    year: "2025 (Pursuing)"
+  },
+  {
     name: "DevOps MasterClass: Terraform Jenkins Kubernetes Ansible",
     issuer: "Online Course",
     year: "2023"
