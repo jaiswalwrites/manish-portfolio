@@ -1,12 +1,17 @@
 {
   "buildCommand": "cd frontend && yarn build",
   "outputDirectory": "frontend/build",
-  "devCommand": "cd frontend && yarn start",
   "installCommand": "cd frontend && yarn install",
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "/index.html"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
